@@ -3,6 +3,8 @@
 
 CMakeFiles/firstProject.dir/asciiTable.cpp.o: ../asciiTable.cpp
 
+CMakeFiles/firstProject.dir/comparision.cpp.o: ../comparision.cpp
+
 CMakeFiles/firstProject.dir/doubleNumber.cpp.o: ../doubleNumber.cpp
 
 CMakeFiles/firstProject.dir/getNumber.cpp.o: ../getNumber.cpp
@@ -11,6 +13,8 @@ CMakeFiles/firstProject.dir/infinityAndNan.cpp.o: ../infinityAndNan.cpp
 
 CMakeFiles/firstProject.dir/main.cpp.o: helper.h
 CMakeFiles/firstProject.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/firstProject.dir/precision.cpp.o: ../precision.cpp
 
 CMakeFiles/firstProject.dir/sizeofTypes.cpp.o: ../sizeofTypes.cpp
 

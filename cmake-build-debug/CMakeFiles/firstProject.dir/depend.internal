@@ -3,6 +3,8 @@
 
 CMakeFiles/firstProject.dir/asciiTable.cpp.o
  /home/book/CLionProjects/firstProject/asciiTable.cpp
+CMakeFiles/firstProject.dir/comparision.cpp.o
+ /home/book/CLionProjects/firstProject/comparision.cpp
 CMakeFiles/firstProject.dir/doubleNumber.cpp.o
  /home/book/CLionProjects/firstProject/doubleNumber.cpp
 CMakeFiles/firstProject.dir/getNumber.cpp.o
@@ -12,6 +14,8 @@ CMakeFiles/firstProject.dir/infinityAndNan.cpp.o
 CMakeFiles/firstProject.dir/main.cpp.o
  /home/book/CLionProjects/firstProject/cmake-build-debug/helper.h
  /home/book/CLionProjects/firstProject/main.cpp
+CMakeFiles/firstProject.dir/precision.cpp.o
+ /home/book/CLionProjects/firstProject/precision.cpp
 CMakeFiles/firstProject.dir/sizeofTypes.cpp.o
  /home/book/CLionProjects/firstProject/sizeofTypes.cpp
 CMakeFiles/firstProject.dir/typeOverFlow.cpp.o

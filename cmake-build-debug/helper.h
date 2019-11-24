@@ -7,5 +7,8 @@
 
 int doubleNumber(int x);
 int getNumber();
+void comparision();
+bool isAlmostEqual(double a, double b, double epsilon);
+bool isapproximatlyEqual (double a, double b, double epsilon);
 
 #endif //FIRSTPROJECT_HELPER_H

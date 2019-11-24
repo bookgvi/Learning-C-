@@ -150,6 +150,33 @@ asciiTable.cpp.s:
 	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/asciiTable.cpp.s
 .PHONY : asciiTable.cpp.s
 
+comparision.o: comparision.cpp.o
+
+.PHONY : comparision.o
+
+# target to build an object file
+comparision.cpp.o:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/comparision.cpp.o
+.PHONY : comparision.cpp.o
+
+comparision.i: comparision.cpp.i
+
+.PHONY : comparision.i
+
+# target to preprocess a source file
+comparision.cpp.i:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/comparision.cpp.i
+.PHONY : comparision.cpp.i
+
+comparision.s: comparision.cpp.s
+
+.PHONY : comparision.s
+
+# target to generate assembly for a file
+comparision.cpp.s:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/comparision.cpp.s
+.PHONY : comparision.cpp.s
+
 doubleNumber.o: doubleNumber.cpp.o
 
 .PHONY : doubleNumber.o
@@ -258,6 +285,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+precision.o: precision.cpp.o
+
+.PHONY : precision.o
+
+# target to build an object file
+precision.cpp.o:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/precision.cpp.o
+.PHONY : precision.cpp.o
+
+precision.i: precision.cpp.i
+
+.PHONY : precision.i
+
+# target to preprocess a source file
+precision.cpp.i:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/precision.cpp.i
+.PHONY : precision.cpp.i
+
+precision.s: precision.cpp.s
+
+.PHONY : precision.s
+
+# target to generate assembly for a file
+precision.cpp.s:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/precision.cpp.s
+.PHONY : precision.cpp.s
+
 sizeofTypes.o: sizeofTypes.cpp.o
 
 .PHONY : sizeofTypes.o
@@ -324,6 +378,9 @@ help:
 	@echo "... asciiTable.o"
 	@echo "... asciiTable.i"
 	@echo "... asciiTable.s"
+	@echo "... comparision.o"
+	@echo "... comparision.i"
+	@echo "... comparision.s"
 	@echo "... doubleNumber.o"
 	@echo "... doubleNumber.i"
 	@echo "... doubleNumber.s"
@@ -336,6 +393,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... precision.o"
+	@echo "... precision.i"
+	@echo "... precision.s"
 	@echo "... sizeofTypes.o"
 	@echo "... sizeofTypes.i"
 	@echo "... sizeofTypes.s"

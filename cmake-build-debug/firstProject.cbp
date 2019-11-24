@@ -90,6 +90,9 @@
 		<Unit filename="/home/book/CLionProjects/firstProject/cmake-build-debug/helper.h">
 			<Option target="firstProject"/>
 		</Unit>
+		<Unit filename="/home/book/CLionProjects/firstProject/comparision.cpp">
+			<Option target="firstProject"/>
+		</Unit>
 		<Unit filename="/home/book/CLionProjects/firstProject/doubleNumber.cpp">
 			<Option target="firstProject"/>
 		</Unit>
@@ -100,6 +103,9 @@
 			<Option target="firstProject"/>
 		</Unit>
 		<Unit filename="/home/book/CLionProjects/firstProject/main.cpp">
+			<Option target="firstProject"/>
+		</Unit>
+		<Unit filename="/home/book/CLionProjects/firstProject/precision.cpp">
 			<Option target="firstProject"/>
 		</Unit>
 		<Unit filename="/home/book/CLionProjects/firstProject/sizeofTypes.cpp">

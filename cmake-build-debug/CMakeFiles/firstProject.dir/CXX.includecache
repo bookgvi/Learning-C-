@@ -6,14 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/book/CLionProjects/firstProject/asciiTable.cpp
-iostream
--
-
 /home/book/CLionProjects/firstProject/cmake-build-debug/helper.h
 
 /home/book/CLionProjects/firstProject/main.cpp
 iostream
+-
+iomanip
+-
+cmath
 -
 cmake-build-debug/helper.h
 /home/book/CLionProjects/firstProject/cmake-build-debug/helper.h
