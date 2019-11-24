@@ -177,6 +177,33 @@ getNumber.cpp.s:
 	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/getNumber.cpp.s
 .PHONY : getNumber.cpp.s
 
+infinityAndNan.o: infinityAndNan.cpp.o
+
+.PHONY : infinityAndNan.o
+
+# target to build an object file
+infinityAndNan.cpp.o:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/infinityAndNan.cpp.o
+.PHONY : infinityAndNan.cpp.o
+
+infinityAndNan.i: infinityAndNan.cpp.i
+
+.PHONY : infinityAndNan.i
+
+# target to preprocess a source file
+infinityAndNan.cpp.i:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/infinityAndNan.cpp.i
+.PHONY : infinityAndNan.cpp.i
+
+infinityAndNan.s: infinityAndNan.cpp.s
+
+.PHONY : infinityAndNan.s
+
+# target to generate assembly for a file
+infinityAndNan.cpp.s:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/infinityAndNan.cpp.s
+.PHONY : infinityAndNan.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,6 +231,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sizeofTypes.o: sizeofTypes.cpp.o
+
+.PHONY : sizeofTypes.o
+
+# target to build an object file
+sizeofTypes.cpp.o:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/sizeofTypes.cpp.o
+.PHONY : sizeofTypes.cpp.o
+
+sizeofTypes.i: sizeofTypes.cpp.i
+
+.PHONY : sizeofTypes.i
+
+# target to preprocess a source file
+sizeofTypes.cpp.i:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/sizeofTypes.cpp.i
+.PHONY : sizeofTypes.cpp.i
+
+sizeofTypes.s: sizeofTypes.cpp.s
+
+.PHONY : sizeofTypes.s
+
+# target to generate assembly for a file
+sizeofTypes.cpp.s:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/sizeofTypes.cpp.s
+.PHONY : sizeofTypes.cpp.s
+
+typeOverFlow.o: typeOverFlow.cpp.o
+
+.PHONY : typeOverFlow.o
+
+# target to build an object file
+typeOverFlow.cpp.o:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/typeOverFlow.cpp.o
+.PHONY : typeOverFlow.cpp.o
+
+typeOverFlow.i: typeOverFlow.cpp.i
+
+.PHONY : typeOverFlow.i
+
+# target to preprocess a source file
+typeOverFlow.cpp.i:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/typeOverFlow.cpp.i
+.PHONY : typeOverFlow.cpp.i
+
+typeOverFlow.s: typeOverFlow.cpp.s
+
+.PHONY : typeOverFlow.s
+
+# target to generate assembly for a file
+typeOverFlow.cpp.s:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/typeOverFlow.cpp.s
+.PHONY : typeOverFlow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,9 +300,18 @@ help:
 	@echo "... getNumber.o"
 	@echo "... getNumber.i"
 	@echo "... getNumber.s"
+	@echo "... infinityAndNan.o"
+	@echo "... infinityAndNan.i"
+	@echo "... infinityAndNan.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sizeofTypes.o"
+	@echo "... sizeofTypes.i"
+	@echo "... sizeofTypes.s"
+	@echo "... typeOverFlow.o"
+	@echo "... typeOverFlow.i"
+	@echo "... typeOverFlow.s"
 .PHONY : help
 
 

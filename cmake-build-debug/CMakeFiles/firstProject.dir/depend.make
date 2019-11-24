@@ -5,6 +5,12 @@ CMakeFiles/firstProject.dir/doubleNumber.cpp.o: ../doubleNumber.cpp
 
 CMakeFiles/firstProject.dir/getNumber.cpp.o: ../getNumber.cpp
 
+CMakeFiles/firstProject.dir/infinityAndNan.cpp.o: ../infinityAndNan.cpp
+
 CMakeFiles/firstProject.dir/main.cpp.o: helper.h
 CMakeFiles/firstProject.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/firstProject.dir/sizeofTypes.cpp.o: ../sizeofTypes.cpp
+
+CMakeFiles/firstProject.dir/typeOverFlow.cpp.o: ../typeOverFlow.cpp
 

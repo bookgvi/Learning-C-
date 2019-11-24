@@ -8,10 +8,14 @@
 
 /home/book/CLionProjects/firstProject/cmake-build-debug/helper.h
 
-/home/book/CLionProjects/firstProject/main.cpp
+/home/book/CLionProjects/firstProject/infinityAndNan.cpp
 iostream
 -
 iomanip
+-
+
+/home/book/CLionProjects/firstProject/main.cpp
+iostream
 -
 cmake-build-debug/helper.h
 /home/book/CLionProjects/firstProject/cmake-build-debug/helper.h

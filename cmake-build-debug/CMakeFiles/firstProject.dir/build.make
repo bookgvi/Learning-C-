@@ -96,11 +96,53 @@ CMakeFiles/firstProject.dir/doubleNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firstProject.dir/doubleNumber.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/book/CLionProjects/firstProject/doubleNumber.cpp -o CMakeFiles/firstProject.dir/doubleNumber.cpp.s
 
+CMakeFiles/firstProject.dir/sizeofTypes.cpp.o: CMakeFiles/firstProject.dir/flags.make
+CMakeFiles/firstProject.dir/sizeofTypes.cpp.o: ../sizeofTypes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/firstProject.dir/sizeofTypes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firstProject.dir/sizeofTypes.cpp.o -c /home/book/CLionProjects/firstProject/sizeofTypes.cpp
+
+CMakeFiles/firstProject.dir/sizeofTypes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firstProject.dir/sizeofTypes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/book/CLionProjects/firstProject/sizeofTypes.cpp > CMakeFiles/firstProject.dir/sizeofTypes.cpp.i
+
+CMakeFiles/firstProject.dir/sizeofTypes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firstProject.dir/sizeofTypes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/book/CLionProjects/firstProject/sizeofTypes.cpp -o CMakeFiles/firstProject.dir/sizeofTypes.cpp.s
+
+CMakeFiles/firstProject.dir/typeOverFlow.cpp.o: CMakeFiles/firstProject.dir/flags.make
+CMakeFiles/firstProject.dir/typeOverFlow.cpp.o: ../typeOverFlow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/firstProject.dir/typeOverFlow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firstProject.dir/typeOverFlow.cpp.o -c /home/book/CLionProjects/firstProject/typeOverFlow.cpp
+
+CMakeFiles/firstProject.dir/typeOverFlow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firstProject.dir/typeOverFlow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/book/CLionProjects/firstProject/typeOverFlow.cpp > CMakeFiles/firstProject.dir/typeOverFlow.cpp.i
+
+CMakeFiles/firstProject.dir/typeOverFlow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firstProject.dir/typeOverFlow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/book/CLionProjects/firstProject/typeOverFlow.cpp -o CMakeFiles/firstProject.dir/typeOverFlow.cpp.s
+
+CMakeFiles/firstProject.dir/infinityAndNan.cpp.o: CMakeFiles/firstProject.dir/flags.make
+CMakeFiles/firstProject.dir/infinityAndNan.cpp.o: ../infinityAndNan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/firstProject.dir/infinityAndNan.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firstProject.dir/infinityAndNan.cpp.o -c /home/book/CLionProjects/firstProject/infinityAndNan.cpp
+
+CMakeFiles/firstProject.dir/infinityAndNan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firstProject.dir/infinityAndNan.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/book/CLionProjects/firstProject/infinityAndNan.cpp > CMakeFiles/firstProject.dir/infinityAndNan.cpp.i
+
+CMakeFiles/firstProject.dir/infinityAndNan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firstProject.dir/infinityAndNan.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/book/CLionProjects/firstProject/infinityAndNan.cpp -o CMakeFiles/firstProject.dir/infinityAndNan.cpp.s
+
 # Object files for target firstProject
 firstProject_OBJECTS = \
 "CMakeFiles/firstProject.dir/main.cpp.o" \
 "CMakeFiles/firstProject.dir/getNumber.cpp.o" \
-"CMakeFiles/firstProject.dir/doubleNumber.cpp.o"
+"CMakeFiles/firstProject.dir/doubleNumber.cpp.o" \
+"CMakeFiles/firstProject.dir/sizeofTypes.cpp.o" \
+"CMakeFiles/firstProject.dir/typeOverFlow.cpp.o" \
+"CMakeFiles/firstProject.dir/infinityAndNan.cpp.o"
 
 # External object files for target firstProject
 firstProject_EXTERNAL_OBJECTS =
@@ -108,9 +150,12 @@ firstProject_EXTERNAL_OBJECTS =
 firstProject: CMakeFiles/firstProject.dir/main.cpp.o
 firstProject: CMakeFiles/firstProject.dir/getNumber.cpp.o
 firstProject: CMakeFiles/firstProject.dir/doubleNumber.cpp.o
+firstProject: CMakeFiles/firstProject.dir/sizeofTypes.cpp.o
+firstProject: CMakeFiles/firstProject.dir/typeOverFlow.cpp.o
+firstProject: CMakeFiles/firstProject.dir/infinityAndNan.cpp.o
 firstProject: CMakeFiles/firstProject.dir/build.make
 firstProject: CMakeFiles/firstProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable firstProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable firstProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/firstProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

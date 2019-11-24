@@ -6,7 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/book/CLionProjects/firstProject/doubleNumber.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/doubleNumber.cpp.o"
   "/home/book/CLionProjects/firstProject/getNumber.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/getNumber.cpp.o"
+  "/home/book/CLionProjects/firstProject/infinityAndNan.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/infinityAndNan.cpp.o"
   "/home/book/CLionProjects/firstProject/main.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/main.cpp.o"
+  "/home/book/CLionProjects/firstProject/sizeofTypes.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/sizeofTypes.cpp.o"
+  "/home/book/CLionProjects/firstProject/typeOverFlow.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/typeOverFlow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,4 +3,4 @@ project(firstProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(firstProject main.cpp getNumber.cpp doubleNumber.cpp cmake-build-debug/helper.h)
+add_executable(firstProject main.cpp getNumber.cpp doubleNumber.cpp cmake-build-debug/helper.h sizeofTypes.cpp typeOverFlow.cpp infinityAndNan.cpp)

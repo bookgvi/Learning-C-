@@ -93,7 +93,16 @@
 		<Unit filename="/home/book/CLionProjects/firstProject/getNumber.cpp">
 			<Option target="firstProject"/>
 		</Unit>
+		<Unit filename="/home/book/CLionProjects/firstProject/infinityAndNan.cpp">
+			<Option target="firstProject"/>
+		</Unit>
 		<Unit filename="/home/book/CLionProjects/firstProject/main.cpp">
+			<Option target="firstProject"/>
+		</Unit>
+		<Unit filename="/home/book/CLionProjects/firstProject/sizeofTypes.cpp">
+			<Option target="firstProject"/>
+		</Unit>
+		<Unit filename="/home/book/CLionProjects/firstProject/typeOverFlow.cpp">
 			<Option target="firstProject"/>
 		</Unit>
 		<Unit filename="/home/book/CLionProjects/firstProject/CMakeLists.txt">
