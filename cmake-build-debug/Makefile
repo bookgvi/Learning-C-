@@ -123,6 +123,33 @@ firstProject/fast:
 	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/build
 .PHONY : firstProject/fast
 
+asciiTable.o: asciiTable.cpp.o
+
+.PHONY : asciiTable.o
+
+# target to build an object file
+asciiTable.cpp.o:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/asciiTable.cpp.o
+.PHONY : asciiTable.cpp.o
+
+asciiTable.i: asciiTable.cpp.i
+
+.PHONY : asciiTable.i
+
+# target to preprocess a source file
+asciiTable.cpp.i:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/asciiTable.cpp.i
+.PHONY : asciiTable.cpp.i
+
+asciiTable.s: asciiTable.cpp.s
+
+.PHONY : asciiTable.s
+
+# target to generate assembly for a file
+asciiTable.cpp.s:
+	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/asciiTable.cpp.s
+.PHONY : asciiTable.cpp.s
+
 doubleNumber.o: doubleNumber.cpp.o
 
 .PHONY : doubleNumber.o
@@ -294,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... firstProject"
 	@echo "... edit_cache"
+	@echo "... asciiTable.o"
+	@echo "... asciiTable.i"
+	@echo "... asciiTable.s"
 	@echo "... doubleNumber.o"
 	@echo "... doubleNumber.i"
 	@echo "... doubleNumber.s"

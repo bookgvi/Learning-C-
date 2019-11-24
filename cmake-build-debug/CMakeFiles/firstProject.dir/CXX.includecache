@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/book/CLionProjects/firstProject/cmake-build-debug/helper.h
-
-/home/book/CLionProjects/firstProject/infinityAndNan.cpp
+/home/book/CLionProjects/firstProject/asciiTable.cpp
 iostream
 -
-iomanip
--
+
+/home/book/CLionProjects/firstProject/cmake-build-debug/helper.h
 
 /home/book/CLionProjects/firstProject/main.cpp
 iostream

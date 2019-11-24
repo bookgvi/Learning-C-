@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/book/CLionProjects/firstProject/asciiTable.cpp">
+			<Option target="firstProject"/>
+		</Unit>
 		<Unit filename="/home/book/CLionProjects/firstProject/cmake-build-debug/helper.h">
 			<Option target="firstProject"/>
 		</Unit>

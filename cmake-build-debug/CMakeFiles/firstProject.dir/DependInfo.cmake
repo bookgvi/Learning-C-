@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/book/CLionProjects/firstProject/asciiTable.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/asciiTable.cpp.o"
   "/home/book/CLionProjects/firstProject/doubleNumber.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/doubleNumber.cpp.o"
   "/home/book/CLionProjects/firstProject/getNumber.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/getNumber.cpp.o"
   "/home/book/CLionProjects/firstProject/infinityAndNan.cpp" "/home/book/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/infinityAndNan.cpp.o"
